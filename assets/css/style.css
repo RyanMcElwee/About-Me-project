@@ -1,0 +1,127 @@
+/* Page Style */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+}
+
+body {
+background-color: rgb(227, 237, 252);
+}
+
+
+p {
+    font-size: 17px;
+}
+
+ /*Header*/
+
+header {
+    padding: 20px;
+    background-color: rgb(116, 183, 255);
+}
+
+header h1 {
+    font-size: 60px;
+    color: rgb(12, 50, 24);
+    display: inline-block;
+}
+
+header a {
+    color: rgb(12, 50, 24);
+    text-decoration: underline;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 30px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header div img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ /*main*/
+
+ /*content*/
+
+section.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0;
+}
+
+ /*Articles - About Me*/
+section.content article.content {
+    margin-bottom: 20px;
+    margin-right: 10;
+    padding: 20px;
+    height: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    background-color: rgb(12, 50, 24);
+    color: rgb(255, 255, 255);
+}
+
+section.content h2 {
+    color: rgb(116, 183, 255);
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section.content article.content img {
+    max-height: 350px;
+}
+
+section.content article.content img.float-left{
+    float: left;
+    margin-right: 25px
+}
+
+section.content article.content img.float-right{
+    float: right;
+    margin-left: 25px
+}
+
+section.content article.content a{
+    font-size: 20px;
+    color: #ff0000;
+}
+
+section.content article.content li a{
+    font-size: 17px;
+    color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+    padding: 10px;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(116, 183, 255);
+}
+
+footer h2 {
+    font-size: 20px;
+}
